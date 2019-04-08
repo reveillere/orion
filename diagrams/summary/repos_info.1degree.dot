@@ -1,0 +1,49 @@
+// dot 2.20.2 on Linux 2.6.32-42-generic-pae
+// SchemaSpy rev 590
+digraph "repos_info" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "repos_info" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">repos_info</TD></TR>
+      <TR><TD PORT="repos_type" COLSPAN="3" ALIGN="LEFT">repos_type</TD></TR>
+      <TR><TD PORT="score" COLSPAN="3" ALIGN="LEFT">score</TD></TR>
+      <TR><TD PORT="description" COLSPAN="3" ALIGN="LEFT">description</TD></TR>
+      <TR><TD PORT="language" COLSPAN="3" ALIGN="LEFT">language</TD></TR>
+      <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
+      <TR><TD PORT="pushed_at" COLSPAN="3" ALIGN="LEFT">pushed_at</TD></TR>
+      <TR><TD PORT="organization" COLSPAN="3" ALIGN="LEFT">organization</TD></TR>
+      <TR><TD PORT="watchers" COLSPAN="3" ALIGN="LEFT">watchers</TD></TR>
+      <TR><TD PORT="has_downloads" COLSPAN="3" ALIGN="LEFT">has_downloads</TD></TR>
+      <TR><TD PORT="url" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">url</TD></TR>
+      <TR><TD PORT="homepage" COLSPAN="3" ALIGN="LEFT">homepage</TD></TR>
+      <TR><TD PORT="fork" COLSPAN="3" ALIGN="LEFT">fork</TD></TR>
+      <TR><TD PORT="size" COLSPAN="3" ALIGN="LEFT">size</TD></TR>
+      <TR><TD PORT="has_issues" COLSPAN="3" ALIGN="LEFT">has_issues</TD></TR>
+      <TR><TD PORT="has_wiki" COLSPAN="3" ALIGN="LEFT">has_wiki</TD></TR>
+      <TR><TD PORT="name" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">name</TD></TR>
+      <TR><TD PORT="forks" COLSPAN="3" ALIGN="LEFT">forks</TD></TR>
+      <TR><TD PORT="owner" COLSPAN="3" ALIGN="LEFT">owner</TD></TR>
+      <TR><TD PORT="open_issues" COLSPAN="3" ALIGN="LEFT">open_issues</TD></TR>
+      <TR><TD PORT="project" COLSPAN="3" ALIGN="LEFT">project</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">100,000 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/repos_info.html"
+    tooltip="repos_info"
+  ];
+}

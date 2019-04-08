@@ -1,0 +1,20 @@
+Orion in details
+================
+
+---------------------------------------------------------------
+The main objective of Orion is to reduce the gap between user’s
+search intent and the interpretation that search engines associate
+to search queries. To this end, we propose to use a
+domain-specific language to formulate search specifications
+that describe the criteria for selecting relevant projects. The
+queries written with the high-level Orion DSL are translated
+into low-level advanced database queries where several information
+tables are joined to select, from a knowledge database,
+a set of projects. This knowledge database of projects is
+constructed and maintained by crawling the web for project
+code and development artifacts
+---------------------------------------------------------------
+image::images/orion.png[height=250,caption="",link="#"]
+
+image::images/translation.png[height=600,caption="",link="#"]
+

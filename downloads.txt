@@ -1,0 +1,22 @@
+Data from the Orion Prototype
+=============================
+
+Project lists
+~~~~~~~~~~~~~
+The list of projects are available for the different platforms :
+
+-  The list of 100,000 projects from GitHub is available link:project_list.txt[here]
+
+-  The list of Google code projects is available link:gcode.txt[here]
+
+-  Freecode project list can be found here link:freecode.txt[here]
+
+Database schemas
+~~~~~~~~~~~~~~~~
+For an overview of the Orion database schemas, please visit the link:schemas.htm[schemas webpage] generated
+by link:http://schemaspy.sourceforge.net/[SchemaSpy]
+
+Downloads
+~~~~~~~~~
+Due to space constraints we cannot upload the knowledge database on this site.
+You can request the database by contacting us.

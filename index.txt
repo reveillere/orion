@@ -1,0 +1,48 @@
+A Comprehensive and Queryable Knowledge Database of Projects
+============================================================
+
+TIP: This web page describes Orion and makes its data available to the
+public. 
+
+image::images/projects.png[height=250,caption="",link="#"]
+************************************************************************
+Software projects produce a wealth of data that
+is leveraged in different tasks and for different purposes: researchers
+collect project data for building experimental datasets;
+software programmers reuse code from projects; developers often
+explore the opportunities for getting involved in the development
+of a project to gain or offer expertise. Finding relevant projects
+that suit one needs is however currently challenging with the
+capabilities of existing search systems.
+
+We propose 'Orion', an integrated search engine architecture
+that combines information from different types of software
+repositories from multiple sources to facilitate the construction
+and execution of advanced search queries. Orion provides a
+declarative query language that gives to users access to a uniform
+interface where it transparently correlates different artifacts of
+project development and maintenance.
+
+We have built an extensible system with an initial capability
+of over 100,000 projects collected from the web, featuring
+several types of software repositories and software development
+artifacts. We conducted an experiment with 10 search scenarios
+to compare Orion with traditional search engines, and study
+the expressiveness, the usability and the productivity of our
+approach. The results show with strong statistical significance
+that users find relevant projects faster and more accurately with
+Orion.
+
+mailto:smulabri@gmail.com['SMU/LaBRI team']
+************************************************************************
+
+- Navigate to the *Documentation* page for an overview of the
+'database' contents and of the 'Orion DSL' translation mechanisms.
+
+- Go to the *Download* page to access the project list and retrieve
+  2 GB of processed information
+
+- The *Testing* page will soon contain an online interface for the search
+  engine where users can specify query requests in Orion DSL specifications
+  and get results.
+

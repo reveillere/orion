@@ -1,0 +1,42 @@
+// dot 2.20.2 on Linux 2.6.32-42-generic-pae
+// SchemaSpy rev 590
+digraph "gcode_issues" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "gcode_issues" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">gcode_issues</TD></TR>
+      <TR><TD PORT="project_name" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">project_name</TD></TR>
+      <TR><TD PORT="issue_id" COLSPAN="3" ALIGN="LEFT">issue_id</TD></TR>
+      <TR><TD PORT="reporter_name" COLSPAN="3" ALIGN="LEFT">reporter_name</TD></TR>
+      <TR><TD PORT="assignee_name" COLSPAN="3" ALIGN="LEFT">assignee_name</TD></TR>
+      <TR><TD PORT="created" COLSPAN="3" ALIGN="LEFT">created</TD></TR>
+      <TR><TD PORT="updated" COLSPAN="3" ALIGN="LEFT">updated</TD></TR>
+      <TR><TD PORT="closedDate" COLSPAN="3" ALIGN="LEFT">closedDate</TD></TR>
+      <TR><TD PORT="types" COLSPAN="3" ALIGN="LEFT">types</TD></TR>
+      <TR><TD PORT="priority" COLSPAN="3" ALIGN="LEFT">priority</TD></TR>
+      <TR><TD PORT="summary" COLSPAN="3" ALIGN="LEFT">summary</TD></TR>
+      <TR><TD PORT="description" COLSPAN="3" ALIGN="LEFT">description</TD></TR>
+      <TR><TD PORT="status" COLSPAN="3" ALIGN="LEFT">status</TD></TR>
+      <TR><TD PORT="website" COLSPAN="3" ALIGN="LEFT">website</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">177,605 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/gcode_issues.html"
+    tooltip="gcode_issues"
+  ];
+}
